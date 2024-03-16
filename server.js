@@ -15,9 +15,14 @@ const swaggerOptions = {
   customSiteTitle: "MTienDev",
 };
 
-app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(specs, swaggerOptions));
+app.use("/", (req, res, next) => {
+  if (req.originalUrl === "/") {
+    return res.redirect("/api-docs");
+  }
+  next();
+});
 
-// Mô tả endpoint /youtubeAll
+app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(specs, swaggerOptions));
 /**
  * @swagger
  * tags:
