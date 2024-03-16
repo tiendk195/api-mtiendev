@@ -1,0 +1,25 @@
+{
+  "name": "treding-ytb-api",
+  "version": "1.0.0",
+  "description": "get data of treding videos on youtube",
+  "main": "server.js",
+  "author": "mtiendev",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.4.5",
+    "env": "^0.0.2",
+    "express": "^4.18.3",
+    "mongoose": "^8.2.1",
+    "node-cron": "^3.0.3",
+    "nodemon": "^2.0.15",
+    "puppeteer": "^22.4.1",
+    "sequelize": "^6.37.1",
+    "sqlite3": "^5.1.7",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0"
+  }
+}
