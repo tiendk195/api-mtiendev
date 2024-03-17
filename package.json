@@ -4,6 +4,7 @@
   "description": "get data of treding videos on youtube",
   "main": "server.js",
   "author": "mtiendev",
+  "license": "MIT",
   "scripts": {
     "start": "node server.js"
   },

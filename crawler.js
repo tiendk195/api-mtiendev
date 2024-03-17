@@ -24,6 +24,7 @@ const artists = [
   "sia",
   "psy",
 ];
+const countries = ["us", "uk", "fr", "de", "kr", "vn", "jp", "hk", "tw", "th"];
 const crawlAndSaveData = () => {
   // Get top trending videos
   const url1 = "https://kworb.net/youtube/";
@@ -140,7 +141,7 @@ const crawlAndSaveData = () => {
           const titleElement = $(element).find("td:nth-child(1) div a");
           const video = {
             title: titleElement.text().trim(),
-            url: "https://kworb.net" + titleElement.attr("href"),
+            url: "https://kworb.net/youtube" + titleElement.attr("href"),
             views: $(element).find("td:nth-child(2)").text().trim(),
             yesterday: $(element).find("td:nth-child(3)").text().trim(),
             publish: $(element).find("td:nth-child(4)").text().trim(),
@@ -148,7 +149,10 @@ const crawlAndSaveData = () => {
           artistVideos.push(video);
         });
         const jsonData = JSON.stringify(artistVideos, null, 2);
-        const filePath = path.join(__dirname, `./database/${artist}.json`);
+        const filePath = path.join(
+          __dirname,
+          `./database/artist/${artist}.json`
+        );
         fs.writeFileSync(filePath, jsonData);
         console.log(`Data has been written to ${artist}.json`);
       })
@@ -158,5 +162,40 @@ const crawlAndSaveData = () => {
   });
 };
 
+// Get country videos
+countries.forEach((country) => {
+  const url5 = `https://kworb.net/youtube/insights/${country}.html`;
+  axios
+    .get(url5)
+    .then((response) => {
+      const $ = cheerio.load(response.data);
+      const countryVideos = [];
+      $("table#weeklytable tbody tr").each((index, element) => {
+        const titleElement = $(element).find("td:nth-child(3) div");
+        const video = {
+          rank: $(element).find("td:nth-child(1)").text().trim(),
+          change: $(element).find("td:nth-child(2)").text().trim(),
+          title: titleElement.text().trim(),
+          weeks: $(element).find("td:nth-child(4)").text().trim(),
+          peak: $(element).find("td:nth-child(5)").text().trim(),
+          peakChange: $(element).find("td:nth-child(6)").text().trim(),
+          streams: $(element).find("td:nth-child(7)").text().trim(),
+          streamsChange: $(element).find("td:nth-child(8)").text().trim(),
+        };
+
+        countryVideos.push(video);
+      });
+      const jsonData = JSON.stringify(countryVideos, null, 2);
+      const filePath = path.join(
+        __dirname,
+        `./database/country/${country}.json`
+      );
+      fs.writeFileSync(filePath, jsonData);
+      console.log(`Data has been written to ${country}.json`);
+    })
+    .catch((error) => {
+      console.log("Error fetching data:", error);
+    });
+});
 module.exports = crawlAndSaveData;
 crawlAndSaveData();

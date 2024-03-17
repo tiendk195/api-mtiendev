@@ -28,7 +28,8 @@ app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(specs, swaggerOptions));
 const youtubeAllController = require("./controllers/youtube/ytbAll");
 const youtubeAsianController = require("./controllers/youtube/ytbAsian");
 const tredingWorldwideController = require("./controllers/youtube/treding_worldwide");
-const artistVideosController = require("./controllers/youtube/artistVideos.js");
+const artistVideosController = require("./controllers/youtube/artistVideos");
+const countriesController = require("./controllers/youtube/countries");
 /**
  * @swagger
  * tags:
@@ -140,7 +141,7 @@ app.use("/treding", tredingWorldwideController);
  *       - in: path
  *         name: artist
  *         required: true
- *         description: The name of the artist.etc :sontungm-tp (note*:letter incase of english none space)
+ *         description: The name of the artist.etc :sontungm-tp (note*:letter lowcase of english and none space)
  *         schema:
  *           type: string
  *     responses:
@@ -166,6 +167,49 @@ app.use("/treding", tredingWorldwideController);
  */
 app.use("/artistVideos", artistVideosController);
 
+/**
+ * @swagger
+ * tags:
+ *   name: Youtube
+ * /countryVideos/{country}:
+ *   get:
+ *     summary: Get top trending YouTube videos of a specific country.
+ *     tags: [Youtube]
+ *     parameters:
+ *       - in: path
+ *         name: country
+ *         required: true
+ *         description: The name of the country.etc :vn,kr,us,uk (note*:letter lowcase of english and none space)
+ *         schema:
+ *           type: string
+ *     responses:
+ *       200:
+ *         description: Top trending videos of the specified country.
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: array
+ *               items:
+ *                 type: object
+ *                 properties:
+ *                   rank:
+ *                     type: string
+ *                   change:
+ *                     type: string
+ *                   title:
+ *                     type: string
+ *                   weeks:
+ *                     type: string
+ *                   peak:
+ *                     type: string
+ *                   peakChange:
+ *                     type: string
+ *                   streams:
+ *                     type: string
+ *                   streamsChange:
+ *                     type: string
+ */
+app.use("/countryVideos", countriesController);
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
