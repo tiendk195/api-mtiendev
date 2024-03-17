@@ -25,13 +25,13 @@ The YouTube Insights API provides access to trending videos data from various co
    - `/youtubeAsian`: Get all top trending YouTube videos in Asian region.
    - `/treding`: Get music videos trending worldwide.
    - `/artistVideos/{artist}`: Get top trending YouTube videos of a specific artist.
-  - `/artistVideos/{country}`: Get top trending YouTube videos of a specific country.
+   - `/artistVideos/{country}`: Get top trending YouTube videos of a specific country.
 
 **Deployment on Render:**
 1. Sign up or log in to your Render account at [https://render.com](https://render.com).
 2. Create a new web service and select the GitHub repository where your YouTube Insights API project is hosted.
 3. Configure the environment variables required by your application, such as `PORT` and any API keys.
-4. Render will automatically deploy your application and provide you with a unique URL to access your API.
+4. Render will automatically deploy your application and provide you with a unique URL to access your API. Try accessing the API at: [https://api-mtiendev.onrender.com/](https://api-mtiendev.onrender.com/)
 
 **Note:** Ensure that your Render web service is configured to build from the correct branch and has the appropriate build settings for Node.js applications.
 
