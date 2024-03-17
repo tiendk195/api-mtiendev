@@ -28,7 +28,7 @@ app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(specs, swaggerOptions));
 const youtubeAllController = require("./controllers/youtube/ytbAll");
 const youtubeAsianController = require("./controllers/youtube/ytbAsian");
 const tredingWorldwideController = require("./controllers/youtube/treding_worldwide");
-
+const artistVideosController = require("./controllers/youtube/artistVideos.js");
 /**
  * @swagger
  * tags:
@@ -127,6 +127,45 @@ app.use("/youtubeAsian", youtubeAsianController);
  *                     type: string
  */
 app.use("/treding", tredingWorldwideController);
+
+/**
+ * @swagger
+ * tags:
+ *   name: Youtube
+ * /artistVideos/{artist}:
+ *   get:
+ *     summary: Get top trending YouTube videos of a specific artist.
+ *     tags: [Youtube]
+ *     parameters:
+ *       - in: path
+ *         name: artist
+ *         required: true
+ *         description: The name of the artist.etc :sontungm-tp (note*:letter incase of english none space)
+ *         schema:
+ *           type: string
+ *     responses:
+ *       200:
+ *         description: Top trending videos of the specified artist.
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: array
+ *               items:
+ *                 type: object
+ *                 properties:
+ *                   title:
+ *                     type: string
+ *                   url:
+ *                     type: string
+ *                   views:
+ *                     type: string
+ *                   yesterday:
+ *                     type: string
+ *                   publish:
+ *                     type: string
+ */
+app.use("/artistVideos", artistVideosController);
+
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });

@@ -7,10 +7,9 @@ const options = {
   definition: {
     openapi: "3.0.0",
     info: {
-      title: "API documents for developer",
+      title: "MTienDev-APIs",
       version: "1.0.2",
-      description:
-        "provide completely free apis for programers-developers to implement",
+      description: "API documents for developer",
       contact: {
         name: "mtiendev",
         email: "tiendk195@gmail.com",

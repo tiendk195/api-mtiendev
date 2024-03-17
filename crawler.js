@@ -1,8 +1,31 @@
 const axios = require("axios");
 const cheerio = require("cheerio");
 const fs = require("fs");
-
+const path = require("path");
+const artists = [
+  "sontungm-tp",
+  "bts",
+  "justinbieber",
+  "edsheeran",
+  "taylorswift",
+  "shakira",
+  "blackpink",
+  "katyperry",
+  "eminem",
+  "arianagrande",
+  "theweeknd",
+  "maroon5",
+  "rihanna",
+  "brunomars",
+  "twice",
+  "adele",
+  "alanwalker",
+  "exo",
+  "sia",
+  "psy",
+];
 const crawlAndSaveData = () => {
+  // Get top trending videos
   const url1 = "https://kworb.net/youtube/";
   axios
     .get(url1)
@@ -36,7 +59,7 @@ const crawlAndSaveData = () => {
     .catch((error) => {
       console.log("Error fetching data:", error);
     });
-
+  // Get top trending videos in Asian
   const url2 = "https://kworb.net/youtube/realtime_asian.html";
   axios
     .get(url2)
@@ -70,7 +93,7 @@ const crawlAndSaveData = () => {
     .catch((error) => {
       console.log("Error fetching data:", error);
     });
-
+  // Get top trending worldwide
   const url3 = "https://kworb.net/youtube/trending.html";
   axios
     .get(url3)
@@ -104,6 +127,35 @@ const crawlAndSaveData = () => {
     .catch((error) => {
       console.log("Error fetching data:", error);
     });
+
+  // Get artist videos
+  artists.forEach((artist) => {
+    const url4 = `https://kworb.net/youtube/artist/${artist}.html`;
+    axios
+      .get(url4)
+      .then((response) => {
+        const $ = cheerio.load(response.data);
+        const artistVideos = [];
+        $("table.addpos tbody tr").each((index, element) => {
+          const titleElement = $(element).find("td:nth-child(1) div a");
+          const video = {
+            title: titleElement.text().trim(),
+            url: "https://kworb.net" + titleElement.attr("href"),
+            views: $(element).find("td:nth-child(2)").text().trim(),
+            yesterday: $(element).find("td:nth-child(3)").text().trim(),
+            publish: $(element).find("td:nth-child(4)").text().trim(),
+          };
+          artistVideos.push(video);
+        });
+        const jsonData = JSON.stringify(artistVideos, null, 2);
+        const filePath = path.join(__dirname, `./database/${artist}.json`);
+        fs.writeFileSync(filePath, jsonData);
+        console.log(`Data has been written to ${artist}.json`);
+      })
+      .catch((error) => {
+        console.log("Error fetching data:", error);
+      });
+  });
 };
 
 module.exports = crawlAndSaveData;
