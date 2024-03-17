@@ -7,12 +7,13 @@ const options = {
   definition: {
     openapi: "3.0.0",
     info: {
-      title: "Top Treding Videos API",
-      version: "1.0.1",
-      description: "API to get top videos trending",
+      title: "API documents for developer",
+      version: "1.0.2",
+      description:
+        "provide completely free apis for programers-developers to implement",
       contact: {
         name: "mtiendev",
-        emal: "tiendk195@gmail.com",
+        email: "tiendk195@gmail.com",
       },
     },
     servers: [
