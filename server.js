@@ -36,7 +36,7 @@ const countriesController = require("./controllers/youtube/countries");
  *   name: Youtube
  * /youtubeAll:
  *   get:
- *     summary: Get all top trending YouTube videos.
+ *     summary: Most viewed videos in the past 24 hours
  *     tags: [Youtube]
  *     responses:
  *       200:
@@ -69,11 +69,11 @@ app.use("/youtubeAll", youtubeAllController);
  *   name: Youtube
  * /youtubeAsian:
  *   get:
- *     summary: Get all top trending YouTube videos in Asian region.
+ *     summary: Most viewed videos in the past 24 hours
  *     tags: [Youtube]
  *     responses:
  *       200:
- *         description: Most viewed videos in the Asian region.
+ *         description: Most viewed videos Asian in the past 24hours.
  *         content:
  *           application/json:
  *             schema:
