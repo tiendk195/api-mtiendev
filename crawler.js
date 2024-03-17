@@ -84,7 +84,7 @@ const crawlAndSaveData = () => {
           rank: $(element).find("td:nth-child(1)").text().trim(),
           change: $(element).find("td:nth-child(2)").text().trim(),
           title: titleElement.text().trim(),
-          url: "https://kworb.net/youtube/" + titleElement.attr("href"),
+          url: "https://kworb.net" + titleElement.attr("href"),
           tags: $(element).find("td:nth-child(4)").text().trim(),
           highlights: $(element).find("td:nth-child(5)").text().trim(),
         };
