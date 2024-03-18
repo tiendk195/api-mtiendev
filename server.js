@@ -30,6 +30,7 @@ const youtubeAsianController = require("./controllers/youtube/ytbAsian");
 const tredingWorldwideController = require("./controllers/youtube/treding_worldwide");
 const artistVideosController = require("./controllers/youtube/artistVideos");
 const countriesController = require("./controllers/youtube/countries");
+
 /**
  * @swagger
  * tags:
@@ -210,6 +211,57 @@ app.use("/artistVideos", artistVideosController);
  *                     type: string
  */
 app.use("/countryVideos", countriesController);
+const mostViewsController = require("./controllers/youtube/mostViewVideos");
+
+/**
+ * @swagger
+ * tags:
+ *   name: MostView
+ * /mostViewVideos/{mostView}:
+ *   get:
+ *     summary: Get most viewed videos by category.
+ *     tags: [MostView]
+ *     parameters:
+ *       - in: path
+ *         name: mostView
+ *         required: true
+ *         description: |
+ *           The category of most viewed videos. Enter comma-separated values from the following categories:
+ *           - thai
+ *           - vietnamese
+ *           - japanese
+ *           - korean
+ *           - male_group
+ *           - female_group
+ *           - male
+ *           - female
+ *           - published_2023
+ *           - published_2022
+ *           - published_2021
+ *           - published_2020
+ *           You can combine multiple categories by separating them with commas (e.g., "vietnamese,korean" for Vietnamese and Korean videos).
+ *         schema:
+ *           type: string
+ *     responses:
+ *       200:
+ *         description: Most viewed videos by category.
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: array
+ *               items:
+ *                 type: object
+ *                 properties:
+ *                   title:
+ *                     type: string
+ *                   url:
+ *                     type: string
+ *                   views:
+ *                     type: string
+ *                   yesterday:
+ *                     type: string
+ */
+app.use("/mostViewVideos", mostViewsController);
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });

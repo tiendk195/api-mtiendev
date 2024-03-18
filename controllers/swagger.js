@@ -8,7 +8,7 @@ const options = {
     openapi: "3.0.0",
     info: {
       title: "MTienDev-APIs",
-      version: "1.0.2",
+      version: "1.0.3",
       description: "API documents for developer",
       contact: {
         name: "mtiendev",

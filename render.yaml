@@ -1,0 +1,7 @@
+services:
+  - name: api-mtiendev
+    env:
+      - key: PORT
+        value: example_9999
+      - key: SERVER_URL
+        value: http://your-deployed-server-url/

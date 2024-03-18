@@ -196,6 +196,51 @@ countries.forEach((country) => {
     .catch((error) => {
       console.log("Error fetching data:", error);
     });
+
+  //Most viewed artists
+  const mostView = [
+    "thai",
+    "vietnamese",
+    "japanese",
+    "korean",
+    "male_group",
+    "female_group",
+    "male",
+    "female",
+    "published_2023",
+    "published_2022",
+    "published_2021",
+    "published_2020",
+  ];
+  mostView.forEach((mostView) => {
+    const url6 = `https://kworb.net/youtube/topvideos_${mostView}.html`;
+    axios
+      .get(url6)
+      .then((response) => {
+        const $ = cheerio.load(response.data);
+        const mostViewVideos = [];
+        $("table.addpos tbody tr").each((index, element) => {
+          const titleElement = $(element).find("td:nth-child(1) div a");
+          const video = {
+            title: titleElement.text().trim(),
+            url: "https://kworb.net/youtube/" + titleElement.attr("href"),
+            views: $(element).find("td:nth-child(2)").text().trim(),
+            yesterday: $(element).find("td:nth-child(3)").text().trim(),
+          };
+          mostViewVideos.push(video);
+        });
+        const jsonData = JSON.stringify(mostViewVideos, null, 2);
+        const filePath = path.join(
+          __dirname,
+          `./database/mostView/${mostView}.json`
+        );
+        fs.writeFileSync(filePath, jsonData);
+        console.log(`Data has been written to ${mostView}.json`);
+      })
+      .catch((error) => {
+        console.log("Error fetching data:", error);
+      });
+  });
 });
 module.exports = crawlAndSaveData;
 crawlAndSaveData();
