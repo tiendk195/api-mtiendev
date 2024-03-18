@@ -1,7 +1,15 @@
+# This is a basic example blueprint for a Node.js web service
+# and the environment variables it requires.
 services:
-  - name: api-mtiendev
-    env:
+  - type: web
+    name: youtube-insights-api
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
       - key: PORT
-        value: example_9999
+        value: "${PORT}"
       - key: SERVER_URL
-        value: http://your-deployed-server-url/
+        value: "${SERVER_URL}"
+
+databases: []

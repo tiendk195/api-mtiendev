@@ -29,7 +29,10 @@ The YouTube Insights API provides access to trending videos data from various co
    - `/mostViewVideos/{mostView}`: Get most viewed videos by category
 
 **Deployment on Render:**
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/tiendk195/api-mtiendev).Or try accessing the API at: [https://api-mtiendev.onrender.com/](https://api-mtiendev.onrender.com/)
+
+1. [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/tiendk195/api-mtiendev)
+
+2. Try accessing the API at: [https://api-mtiendev.onrender.com/](https://api-mtiendev.onrender.com/)
 
 **Contributing:**
 Contributions are welcome! If you have any suggestions, feature requests, or bug reports, please open an issue or create a pull request on GitHub.
