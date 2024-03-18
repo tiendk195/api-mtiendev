@@ -30,9 +30,9 @@ The YouTube Insights API provides access to trending videos data from various co
 
 **Deployment on Render:**
 
-1. [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/tiendk195/api-mtiendev)
+1.Follow up the [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/tiendk195/api-mtiendev)
 
-2. Try accessing the API at: [https://api-mtiendev.onrender.com/](https://api-mtiendev.onrender.com/)
+2. Or try accessing the API at: [https://api-mtiendev.onrender.com/](https://api-mtiendev.onrender.com/)
 
 **Contributing:**
 Contributions are welcome! If you have any suggestions, feature requests, or bug reports, please open an issue or create a pull request on GitHub.
