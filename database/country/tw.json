@@ -6,18 +6,18 @@
     "weeks": "2",
     "peak": "1",
     "peakChange": "(x1)",
-    "streams": "990,408",
-    "streamsChange": "+522,589"
+    "streams": "990,581",
+    "streamsChange": "+522,758"
   },
   {
     "rank": "2",
-    "change": "+1",
+    "change": "=",
     "title": "丁噹 Della Ding - 致遠道而來的我們",
     "weeks": "2",
     "peak": "2",
-    "peakChange": "(x1)",
-    "streams": "893,683",
-    "streamsChange": "+178,847"
+    "peakChange": "(x2)",
+    "streams": "893,255",
+    "streamsChange": "+178,419"
   },
   {
     "rank": "3",
@@ -26,18 +26,18 @@
     "weeks": "13",
     "peak": "1",
     "peakChange": "(x8)",
-    "streams": "790,737",
-    "streamsChange": "-72,203"
+    "streams": "791,457",
+    "streamsChange": "-71,483"
   },
   {
     "rank": "4",
-    "change": "-2",
+    "change": "-1",
     "title": "承桓 - 我会等",
     "weeks": "50",
     "peak": "1",
     "peakChange": "(x11)",
-    "streams": "738,862",
-    "streamsChange": "-25,883"
+    "streams": "685,588",
+    "streamsChange": "-24,865"
   },
   {
     "rank": "5",
@@ -46,8 +46,8 @@
     "weeks": "3",
     "peak": "1",
     "peakChange": "(x1)",
-    "streams": "570,707",
-    "streamsChange": "-11,594"
+    "streams": "570,628",
+    "streamsChange": "-11,775"
   },
   {
     "rank": "6",
@@ -56,8 +56,8 @@
     "weeks": "5",
     "peak": "5",
     "peakChange": "",
-    "streams": "541,640",
-    "streamsChange": "-15,853"
+    "streams": "541,984",
+    "streamsChange": "-15,509"
   },
   {
     "rank": "7",
@@ -66,8 +66,8 @@
     "weeks": "2",
     "peak": "7",
     "peakChange": "",
-    "streams": "516,109",
-    "streamsChange": "+70,081"
+    "streams": "516,544",
+    "streamsChange": "+70,486"
   },
   {
     "rank": "8",
@@ -76,8 +76,8 @@
     "weeks": "12",
     "peak": "4",
     "peakChange": "",
-    "streams": "500,211",
-    "streamsChange": "-37,505"
+    "streams": "500,275",
+    "streamsChange": "-37,441"
   },
   {
     "rank": "9",
@@ -86,8 +86,8 @@
     "weeks": "4",
     "peak": "2",
     "peakChange": "(x1)",
-    "streams": "495,372",
-    "streamsChange": "-36,348"
+    "streams": "496,007",
+    "streamsChange": "-35,782"
   },
   {
     "rank": "10",
@@ -96,8 +96,8 @@
     "weeks": "12",
     "peak": "5",
     "peakChange": "",
-    "streams": "482,368",
-    "streamsChange": "+6,581"
+    "streams": "481,630",
+    "streamsChange": "+7,136"
   },
   {
     "rank": "11",
@@ -106,8 +106,8 @@
     "weeks": "41",
     "peak": "1",
     "peakChange": "(x6)",
-    "streams": "471,799",
-    "streamsChange": "-9,450"
+    "streams": "472,351",
+    "streamsChange": "-8,895"
   },
   {
     "rank": "12",
@@ -116,8 +116,8 @@
     "weeks": "7",
     "peak": "2",
     "peakChange": "(x2)",
-    "streams": "455,853",
-    "streamsChange": "-57,259"
+    "streams": "456,117",
+    "streamsChange": "-57,012"
   },
   {
     "rank": "13",
@@ -126,8 +126,8 @@
     "weeks": "3",
     "peak": "13",
     "peakChange": "",
-    "streams": "446,289",
-    "streamsChange": "+19,527"
+    "streams": "446,878",
+    "streamsChange": "+20,116"
   },
   {
     "rank": "14",
@@ -136,8 +136,8 @@
     "weeks": "44",
     "peak": "1",
     "peakChange": "(x8)",
-    "streams": "436,881",
-    "streamsChange": "-2,582"
+    "streams": "437,241",
+    "streamsChange": "-2,311"
   },
   {
     "rank": "15",
@@ -146,8 +146,8 @@
     "weeks": "123",
     "peak": "1",
     "peakChange": "(x23)",
-    "streams": "413,045",
-    "streamsChange": "+4,427"
+    "streams": "413,052",
+    "streamsChange": "+4,434"
   },
   {
     "rank": "16",
@@ -156,7 +156,7 @@
     "weeks": "1",
     "peak": "16",
     "peakChange": "",
-    "streams": "410,959",
+    "streams": "411,339",
     "streamsChange": ""
   },
   {
@@ -166,8 +166,8 @@
     "weeks": "2",
     "peak": "17",
     "peakChange": "",
-    "streams": "403,637",
-    "streamsChange": "+17,408"
+    "streams": "404,194",
+    "streamsChange": "+17,752"
   },
   {
     "rank": "18",
@@ -176,8 +176,8 @@
     "weeks": "8",
     "peak": "11",
     "peakChange": "",
-    "streams": "370,818",
-    "streamsChange": "-354"
+    "streams": "370,785",
+    "streamsChange": "-387"
   },
   {
     "rank": "19",
@@ -186,17 +186,17 @@
     "weeks": "1",
     "peak": "19",
     "peakChange": "",
-    "streams": "358,900",
+    "streams": "359,162",
     "streamsChange": ""
   },
   {
     "rank": "20",
-    "change": "RE",
-    "title": "陳華 - 想和你看五月的晚霞",
-    "weeks": "56",
-    "peak": "5",
+    "change": "=",
+    "title": "承桓 - 总会有人 (男版)",
+    "weeks": "6",
+    "peak": "13",
     "peakChange": "",
-    "streams": "350,120",
-    "streamsChange": ""
+    "streams": "356,946",
+    "streamsChange": "-11,851"
   }
 ]

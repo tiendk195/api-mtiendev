@@ -6,7 +6,8 @@
   "author": "mtiendev",
   "license": "MIT",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "debug": "nodemon server.js"
   },
   "dependencies": {
     "axios": "^1.6.7",

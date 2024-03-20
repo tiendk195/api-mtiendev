@@ -6,8 +6,8 @@
     "weeks": "7",
     "peak": "1",
     "peakChange": "(x6)",
-    "streams": "6,771,455",
-    "streamsChange": "-1,107,552"
+    "streams": "6,761,305",
+    "streamsChange": "-1,116,846"
   },
   {
     "rank": "2",
@@ -16,8 +16,8 @@
     "weeks": "8",
     "peak": "2",
     "peakChange": "(x5)",
-    "streams": "6,729,140",
-    "streamsChange": "-349,257"
+    "streams": "6,714,796",
+    "streamsChange": "-362,557"
   },
   {
     "rank": "3",
@@ -26,8 +26,8 @@
     "weeks": "8",
     "peak": "1",
     "peakChange": "(x1)",
-    "streams": "6,351,416",
-    "streamsChange": "+115,744"
+    "streams": "6,221,746",
+    "streamsChange": "-14,112"
   },
   {
     "rank": "4",
@@ -36,8 +36,8 @@
     "weeks": "13",
     "peak": "1",
     "peakChange": "(x2)",
-    "streams": "5,738,355",
-    "streamsChange": "-179,479"
+    "streams": "5,669,387",
+    "streamsChange": "-247,883"
   },
   {
     "rank": "5",
@@ -46,8 +46,8 @@
     "weeks": "4",
     "peak": "5",
     "peakChange": "",
-    "streams": "5,241,199",
-    "streamsChange": "-19,298"
+    "streams": "5,241,813",
+    "streamsChange": "-18,686"
   },
   {
     "rank": "6",
@@ -56,8 +56,8 @@
     "weeks": "4",
     "peak": "6",
     "peakChange": "",
-    "streams": "4,736,496",
-    "streamsChange": "+338,752"
+    "streams": "4,684,053",
+    "streamsChange": "+286,209"
   },
   {
     "rank": "7",
@@ -66,7 +66,7 @@
     "weeks": "1",
     "peak": "7",
     "peakChange": "",
-    "streams": "3,823,633",
+    "streams": "3,823,168",
     "streamsChange": ""
   },
   {
@@ -76,8 +76,8 @@
     "weeks": "15",
     "peak": "1",
     "peakChange": "(x2)",
-    "streams": "3,154,875",
-    "streamsChange": "-624,028"
+    "streams": "3,147,089",
+    "streamsChange": "-632,064"
   },
   {
     "rank": "9",
@@ -86,8 +86,8 @@
     "weeks": "3",
     "peak": "9",
     "peakChange": "",
-    "streams": "2,840,956",
-    "streamsChange": "+45,826"
+    "streams": "2,859,017",
+    "streamsChange": "+63,731"
   },
   {
     "rank": "10",
@@ -96,8 +96,8 @@
     "weeks": "16",
     "peak": "7",
     "peakChange": "",
-    "streams": "2,767,051",
-    "streamsChange": "+109,302"
+    "streams": "2,767,143",
+    "streamsChange": "+109,221"
   },
   {
     "rank": "11",
@@ -106,8 +106,8 @@
     "weeks": "7",
     "peak": "7",
     "peakChange": "",
-    "streams": "2,694,455",
-    "streamsChange": "-108,065"
+    "streams": "2,683,692",
+    "streamsChange": "-118,921"
   },
   {
     "rank": "12",
@@ -116,8 +116,8 @@
     "weeks": "23",
     "peak": "1",
     "peakChange": "(x10)",
-    "streams": "2,538,173",
-    "streamsChange": "-130,685"
+    "streams": "2,553,182",
+    "streamsChange": "-117,281"
   },
   {
     "rank": "13",
@@ -126,8 +126,8 @@
     "weeks": "3",
     "peak": "8",
     "peakChange": "",
-    "streams": "2,505,867",
-    "streamsChange": "-600,566"
+    "streams": "2,505,755",
+    "streamsChange": "-601,374"
   },
   {
     "rank": "14",
@@ -136,8 +136,8 @@
     "weeks": "9",
     "peak": "4",
     "peakChange": "",
-    "streams": "2,371,203",
-    "streamsChange": "-242,966"
+    "streams": "2,361,620",
+    "streamsChange": "-252,549"
   },
   {
     "rank": "15",
@@ -146,57 +146,57 @@
     "weeks": "2",
     "peak": "9",
     "peakChange": "",
-    "streams": "2,343,854",
-    "streamsChange": "-527,229"
+    "streams": "2,345,554",
+    "streamsChange": "-525,656"
   },
   {
     "rank": "16",
-    "change": "=",
-    "title": "หนิงๆ คำพะนาง - ตั๋วแฟนว่าจังใด๋ (Cover Version)",
-    "weeks": "5",
-    "peak": "11",
-    "peakChange": "",
-    "streams": "2,280,805",
-    "streamsChange": "-192,203"
-  },
-  {
-    "rank": "17",
-    "change": "-4",
+    "change": "-3",
     "title": "PiXXiE - ติดฝน (rain)",
     "weeks": "9",
     "peak": "2",
     "peakChange": "(x1)",
-    "streams": "2,208,589",
-    "streamsChange": "-451,855"
+    "streams": "2,215,152",
+    "streamsChange": "-445,292"
+  },
+  {
+    "rank": "17",
+    "change": "-1",
+    "title": "หนิงๆ คำพะนาง - ตั๋วแฟนว่าจังใด๋ (Cover Version)",
+    "weeks": "5",
+    "peak": "11",
+    "peakChange": "",
+    "streams": "2,138,066",
+    "streamsChange": "-350,721"
   },
   {
     "rank": "18",
-    "change": "+2",
-    "title": "Monkaen Kaenkoon - เพิ่นบ่แม่นผู้สาวเฮา",
-    "weeks": "18",
-    "peak": "2",
-    "peakChange": "(x6)",
-    "streams": "2,146,709",
-    "streamsChange": "+6,207"
-  },
-  {
-    "rank": "19",
     "change": "=",
-    "title": "วสันต์17 - ก่อนลา",
-    "weeks": "25",
-    "peak": "3",
-    "peakChange": "(x2)",
-    "streams": "2,124,839",
-    "streamsChange": "-32,547"
-  },
-  {
-    "rank": "20",
-    "change": "-2",
     "title": "บุ๊ค ศุภกาญจน์ - คืนสิทธิ์",
     "weeks": "15",
     "peak": "9",
     "peakChange": "",
-    "streams": "2,106,415",
-    "streamsChange": "-128,617"
+    "streams": "2,102,323",
+    "streamsChange": "-132,929"
+  },
+  {
+    "rank": "19",
+    "change": "+1",
+    "title": "Lumplend Wongsakorn - เพิ่นบ่แม่นผู้สาวเฮา",
+    "weeks": "14",
+    "peak": "2",
+    "peakChange": "(x1)",
+    "streams": "2,074,711",
+    "streamsChange": "-52,362"
+  },
+  {
+    "rank": "20",
+    "change": "-1",
+    "title": "วสันต์17 - ก่อนลา",
+    "weeks": "25",
+    "peak": "3",
+    "peakChange": "(x2)",
+    "streams": "2,073,849",
+    "streamsChange": "-74,540"
   }
 ]

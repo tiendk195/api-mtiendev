@@ -23,6 +23,7 @@ const artists = [
   "exo",
   "sia",
   "psy",
+  "billieeilish",
 ];
 const countries = ["us", "uk", "fr", "de", "kr", "vn", "jp", "hk", "tw", "th"];
 const crawlAndSaveData = () => {
