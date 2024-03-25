@@ -129,7 +129,6 @@ app.use("/youtubeAsian", youtubeAsianController);
  *                     type: string
  */
 app.use("/treding", tredingWorldwideController);
-
 /**
  * @swagger
  * tags:
@@ -142,9 +141,32 @@ app.use("/treding", tredingWorldwideController);
  *       - in: path
  *         name: artist
  *         required: true
- *         description: The name of the artist.etc :sontungm-tp (note*:letter lowcase of english and none space)
+ *         description: >
+ *           The name of the artist. Example: sontungm-tp (note*: letter lowcase of english and none space)
  *         schema:
  *           type: string
+ *           enum:
+ *             - sontungm-tp
+ *             - bts
+ *             - justinbieber
+ *             - edsheeran
+ *             - taylorswift
+ *             - shakira
+ *             - blackpink
+ *             - katyperry
+ *             - eminem
+ *             - arianagrande
+ *             - theweeknd
+ *             - maroon5
+ *             - rihanna
+ *             - brunomars
+ *             - twice
+ *             - adele
+ *             - alanwalker
+ *             - exo
+ *             - sia
+ *             - psy
+ *             - billieeilish
  *     responses:
  *       200:
  *         description: Top trending videos of the specified artist.
@@ -183,6 +205,17 @@ app.use("/artistVideos", artistVideosController);
  *         description: The name of the country.etc :vn,kr,us,uk (note*:letter lowcase of english and none space)
  *         schema:
  *           type: string
+ *         enum:
+ *             - us
+ *             - uk
+ *             - fr
+ *             - de
+ *             - kr
+ *             - vn
+ *             - jp
+ *             - hk
+ *             - tw
+ *             - th
  *     responses:
  *       200:
  *         description: Top trending videos of the specified country.
