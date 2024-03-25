@@ -1,202 +1,202 @@
 [
   {
     "rank": "1",
-    "change": "=",
-    "title": "Yan Ting - 三生有幸",
-    "weeks": "3",
+    "change": "+1",
+    "title": "MC Cheung Tinfu - Background Noise",
+    "weeks": "2",
     "peak": "1",
-    "peakChange": "(x3)",
-    "streams": "325,053",
-    "streamsChange": "-180,037"
+    "peakChange": "(x1)",
+    "streams": "376,263",
+    "streamsChange": "+110,426"
   },
   {
     "rank": "2",
-    "change": "NEW",
-    "title": "MC Cheung Tinfu - Background Noise",
-    "weeks": "1",
-    "peak": "2",
-    "peakChange": "(x1)",
-    "streams": "265,837",
-    "streamsChange": ""
+    "change": "-1",
+    "title": "Yan Ting - 三生有幸",
+    "weeks": "4",
+    "peak": "1",
+    "peakChange": "(x3)",
+    "streams": "324,028",
+    "streamsChange": "-1,025"
   },
   {
     "rank": "3",
     "change": "=",
     "title": "Kaho Hung - Tinted Windows",
-    "weeks": "10",
+    "weeks": "11",
     "peak": "2",
     "peakChange": "(x1)",
-    "streams": "237,173",
-    "streamsChange": "-20,943"
+    "streams": "236,174",
+    "streamsChange": "-999"
   },
   {
     "rank": "4",
-    "change": "NEW",
-    "title": "Creepy Nuts - Bling-Bang-Bang-Born",
-    "weeks": "1",
-    "peak": "4",
-    "peakChange": "",
-    "streams": "235,508",
-    "streamsChange": ""
+    "change": "+1",
+    "title": "Gareth.T - emergency contact",
+    "weeks": "16",
+    "peak": "1",
+    "peakChange": "(x3)",
+    "streams": "226,709",
+    "streamsChange": "+4,944"
   },
   {
     "rank": "5",
-    "change": "=",
-    "title": "Gareth.T - emergency contact",
-    "weeks": "15",
-    "peak": "1",
-    "peakChange": "(x3)",
-    "streams": "221,391",
-    "streamsChange": "-9,924"
+    "change": "-1",
+    "title": "Creepy Nuts - Bling-Bang-Bang-Born",
+    "weeks": "2",
+    "peak": "4",
+    "peakChange": "",
+    "streams": "209,445",
+    "streamsChange": "-26,066"
   },
   {
     "rank": "6",
     "change": "=",
     "title": "MC Cheung Tinfu - Permanent Damage",
-    "weeks": "13",
+    "weeks": "14",
     "peak": "2",
     "peakChange": "(x2)",
-    "streams": "213,163",
-    "streamsChange": "+6,471"
+    "streams": "196,151",
+    "streamsChange": "-17,012"
   },
   {
     "rank": "7",
-    "change": "=",
-    "title": "LE SSERAFIM - EASY",
-    "weeks": "4",
-    "peak": "1",
-    "peakChange": "(x1)",
-    "streams": "188,862",
-    "streamsChange": "-10,595"
+    "change": "+7",
+    "title": "MC Cheung Tinfu - AM730",
+    "weeks": "2",
+    "peak": "7",
+    "peakChange": "",
+    "streams": "188,458",
+    "streamsChange": "+47,450"
   },
   {
     "rank": "8",
-    "change": "-6",
-    "title": "Gigi 炎明熹 - 透光者",
-    "weeks": "2",
-    "peak": "2",
-    "peakChange": "(x1)",
-    "streams": "182,563",
-    "streamsChange": "-131,685"
+    "change": "+5",
+    "title": "Yan Ting - 意外現場",
+    "weeks": "10",
+    "peak": "8",
+    "peakChange": "",
+    "streams": "166,930",
+    "streamsChange": "+19,211"
   },
   {
     "rank": "9",
-    "change": "-1",
-    "title": "LE SSERAFIM - Smart",
-    "weeks": "2",
-    "peak": "8",
-    "peakChange": "",
-    "streams": "166,954",
-    "streamsChange": "+271"
+    "change": "=",
+    "title": "MC Cheung Tinfu - Inhale",
+    "weeks": "35",
+    "peak": "3",
+    "peakChange": "(x6)",
+    "streams": "159,770",
+    "streamsChange": "-4,343"
   },
   {
     "rank": "10",
-    "change": "+2",
-    "title": "MC Cheung Tinfu - Inhale",
-    "weeks": "34",
-    "peak": "3",
-    "peakChange": "(x6)",
-    "streams": "164,113",
-    "streamsChange": "+18,737"
+    "change": "-3",
+    "title": "LE SSERAFIM - EASY",
+    "weeks": "5",
+    "peak": "1",
+    "peakChange": "(x1)",
+    "streams": "152,296",
+    "streamsChange": "-36,577"
   },
   {
     "rank": "11",
-    "change": "-7",
-    "title": "Phil Lam - 高山低谷",
-    "weeks": "2",
-    "peak": "4",
-    "peakChange": "",
-    "streams": "152,697",
-    "streamsChange": "-103,772"
+    "change": "+1",
+    "title": "Hins Cheung - 青春告別式",
+    "weeks": "12",
+    "peak": "3",
+    "peakChange": "(x2)",
+    "streams": "151,429",
+    "streamsChange": "+1,592"
   },
   {
     "rank": "12",
-    "change": "-3",
-    "title": "Hins Cheung - 青春告別式",
-    "weeks": "11",
-    "peak": "3",
-    "peakChange": "(x2)",
-    "streams": "149,837",
-    "streamsChange": "-16,431"
+    "change": "NEW",
+    "title": "(G)I-DLE - Fate",
+    "weeks": "1",
+    "peak": "12",
+    "peakChange": "",
+    "streams": "146,922",
+    "streamsChange": ""
   },
   {
     "rank": "13",
-    "change": "+1",
-    "title": "Yan Ting - 意外現場",
-    "weeks": "9",
-    "peak": "12",
+    "change": "-3",
+    "title": "LE SSERAFIM - Smart",
+    "weeks": "3",
+    "peak": "8",
     "peakChange": "",
-    "streams": "147,719",
-    "streamsChange": "+6,711"
+    "streams": "135,936",
+    "streamsChange": "-27,313"
   },
   {
     "rank": "14",
-    "change": "NEW",
-    "title": "MC Cheung Tinfu - AM730",
-    "weeks": "1",
-    "peak": "14",
-    "peakChange": "",
-    "streams": "141,008",
-    "streamsChange": ""
+    "change": "+2",
+    "title": "MC Cheung Tinfu - The One For U",
+    "weeks": "62",
+    "peak": "1",
+    "peakChange": "(x1)",
+    "streams": "129,827",
+    "streamsChange": "-4,596"
   },
   {
     "rank": "15",
-    "change": "-2",
+    "change": "=",
     "title": "YOASOBI - アイドル",
-    "weeks": "41",
+    "weeks": "42",
     "peak": "1",
     "peakChange": "(x5)",
-    "streams": "140,222",
-    "streamsChange": "-1,586"
+    "streams": "129,668",
+    "streamsChange": "-10,530"
   },
   {
     "rank": "16",
-    "change": "-1",
-    "title": "MC Cheung Tinfu - The One For U",
-    "weeks": "61",
-    "peak": "1",
-    "peakChange": "(x1)",
-    "streams": "134,423",
-    "streamsChange": "+6,575"
-  },
-  {
-    "rank": "17",
     "change": "NEW",
-    "title": "COLLAR - Back In The Game",
+    "title": "Yan Ting - 遲了悔改 (ViuTV電視劇《太平紋身店》主題曲)",
     "weeks": "1",
-    "peak": "17",
+    "peak": "16",
     "peakChange": "",
-    "streams": "131,271",
+    "streams": "128,725",
     "streamsChange": ""
   },
   {
-    "rank": "18",
+    "rank": "17",
     "change": "+1",
     "title": "MC Cheung Tinfu - Not My Problem",
-    "weeks": "28",
+    "weeks": "29",
     "peak": "1",
     "peakChange": "(x2)",
-    "streams": "128,851",
-    "streamsChange": "+17,055"
+    "streams": "123,084",
+    "streamsChange": "-5,767"
+  },
+  {
+    "rank": "18",
+    "change": "+2",
+    "title": "Hins Cheung - 隱形遊樂場",
+    "weeks": "29",
+    "peak": "2",
+    "peakChange": "(x1)",
+    "streams": "117,560",
+    "streamsChange": "-2,080"
   },
   {
     "rank": "19",
-    "change": "-1",
+    "change": "=",
     "title": "MC Cheung Tinfu - 老派約會之必要",
-    "weeks": "86",
+    "weeks": "87",
     "peak": "1",
     "peakChange": "(x6)",
-    "streams": "124,569",
-    "streamsChange": "+2,313"
+    "streams": "116,841",
+    "streamsChange": "-6,224"
   },
   {
     "rank": "20",
-    "change": "-4",
-    "title": "Hins Cheung - 隱形遊樂場",
-    "weeks": "28",
-    "peak": "2",
-    "peakChange": "(x1)",
-    "streams": "119,640",
-    "streamsChange": "-3,667"
+    "change": "RE",
+    "title": "MC Cheung Tinfu - 記憶棉",
+    "weeks": "125",
+    "peak": "1",
+    "peakChange": "(x2)",
+    "streams": "113,328",
+    "streamsChange": ""
   }
 ]
